@@ -13,6 +13,10 @@ def index():
 @app.route('/pomodoro')
 def main():
     return render_template('/pomodoro.html')
+
+@app.route('/theme')
+def theme():
+     return render_template('/theme.html')
     
 if __name__ == '__main__':
     app.run(debug = True, host = '0.0.0.0')

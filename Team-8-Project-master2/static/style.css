@@ -63,3 +63,131 @@
       border-left: 6px solid #D9534F;
   
   }
+
+/* New code*/
+
+.button {
+    max-width: 400px;
+    margin: 0 auto;
+    border:2px solid #111
+    border-radius: 0.25rem;
+    font-size: 15px;
+    padding: 5px 60px;
+    border: none;
+}
+
+body {
+    background: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+
+.vaporwave {
+    background-color: #a4a7ea; /*lavander */
+    color:#e368da;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.methol {
+    background-color: #00c18c; 
+    color:#ffffff;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.striker {
+    background-color: #124883; /*lavander */
+    color:#d6dbd9;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.red-samurai {
+    background-color: #84202c; /*lavander */
+    color: #c79e6e;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.sweden {
+    background-color: #0058a3;; /*lavander */
+    color: #ffcc02;   border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.bliss {
+    background-color: #262727; /*lavander */
+    color: #f0d3c9;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.pulse {
+    background-color: #181818; 
+    color: #17b8bd;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.metropolis {
+    background-color: #0f1f2c; 
+    color: #e368da;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.stealth {
+    background-color: #010203; /*lavander */
+    color:#383e42;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.aether {
+    background-color: #101820; /*lavander */
+    color:#eedaea;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.darling {
+    background-color: #fec8cd; /*lavander */
+    color: #ffffff;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+.cafe {
+    background-color: #ceb18d; /*lavander */
+    color:#14120f;    border-radius: 0.25rem;
+    font-size: 20px;
+    padding: 5px 60px;
+    border: none;
+}
+
+
+*{
+    box-sizing:border-box;
+}
+
+.theme-buttons {
+    /*all the grid stuff*/
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
