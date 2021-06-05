@@ -191,3 +191,12 @@ body {
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+#main{
+    display: inline;
+    text-align: center;
+}
+
+hr {
+    color: blue;
+}
