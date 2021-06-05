@@ -16,7 +16,11 @@ def main():
 
 @app.route('/theme')
 def theme():
-     return render_template('/theme.html')
+    return render_template('/theme.html')
+
+@app.route('/entryType')
+def entry():
+    return render_template('/entryType.html')
     
 if __name__ == '__main__':
     app.run(debug = True, host = '0.0.0.0')
