@@ -10,10 +10,10 @@
 <body>
 <div class="button">
     <div class="theme-buttons">
-    <button class="vaporwave" onclick="myFunction()">vaporwave</button>
-    <button class="methol" onclick="myFunction()">methol</button>
-    <button class="striker" onclick="myFunction()">striker</button>
-    <button class="red-samurai" onclick="myFunction()">red samurai</button>
+    <button class="vaporwave" onclick="vaporWave()">vaporwave</button>
+    <button class="methol" onclick="methol()">methol</button>
+    <button class="striker" onclick="striker()">striker</button>
+    <button class="red-samurai" onclick="redsamurai()">red samurai</button>
     <button class="sweden" onclick="myFunction()">sweden</button>
     <button class="bliss" onclick="myFunction()">bliss</button>
     <button class="pulse" onclick="myFunction()">pulse</button>
@@ -25,6 +25,14 @@
 
     </div>
 </div>
+
+<script>
+    function vaporWave() {
+       var element = document.body;
+
+       element.classList.toggle("vaporwave-mode");
+    }
+</script>
 
 <script src="/static/script.js"></script>
 </body>

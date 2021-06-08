@@ -12,12 +12,12 @@ hr {
 }
 
 
-
 .body {
     margin: 0px;
     padding: 0px;
   }
 
+.body
   .main-container {
     display: grid;
     place-content: center;
@@ -30,7 +30,6 @@ hr {
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
-
   .my-btns a{
       border: 1px solid whitesmoke;
       border-radius: 5px;
@@ -41,7 +40,6 @@ hr {
       width: 150px;
       background-color: transparent
   }
-
   .my-btns a:hover{
       background-color:whitesmoke;
       color: rgb(128, 128, 128);
@@ -85,12 +83,6 @@ hr {
 /* New code*/
 
 .button {
-    max-width: 400px;
-    margin: 0 auto;
-    border:2px solid #111;
-    border-radius: 0.25rem;
-    font-size: 15px;
-    padding: 5px 60px;
     border: none;
 }
 
@@ -108,6 +100,19 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease;
+    outline: none;
+}
+
+.vaporwave:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
+.vaporwave-mode {
+    background-color: #a4a7ea; /*lavander */
+    color:#e368da;  
 }
 
 .methol {
@@ -116,6 +121,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.methol:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .striker {
@@ -124,6 +136,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.striker:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .red-samurai {
@@ -132,6 +151,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.red-samurai:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .sweden {
@@ -140,6 +166,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.sweden:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .bliss {
@@ -148,6 +181,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.bliss:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .pulse {
@@ -156,6 +196,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.pulse:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .metropolis {
@@ -164,6 +211,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.metropolis:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .stealth {
@@ -172,6 +226,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.stealth:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .aether {
@@ -180,6 +241,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.aether:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .darling {
@@ -188,6 +256,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.darling:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 .cafe {
@@ -196,6 +271,13 @@ body {
     font-size: 20px;
     padding: 5px 60px;
     border: none;
+    transition:  .3s ease
+}
+
+.cafe:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 
@@ -206,9 +288,10 @@ body {
 .theme-buttons {
     /*all the grid stuff*/
     display: grid;
-
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /*transmation */
+    transition:  .3s ease
 }
-
 
 

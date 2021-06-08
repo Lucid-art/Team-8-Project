@@ -20,6 +20,10 @@ def theme():
 
 @app.route('/entryType')
 def entry():
+    conn = sqlite3.connect('./static/data/journal.db')
+    curs = conn.cursor()
+    journal = []
+    message = {'entries': row[1], 'rowid': row[0]}
     return render_template('/entryType.html')
     
 if __name__ == '__main__':
