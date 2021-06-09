@@ -5,6 +5,9 @@
 
 hr {
     color: blue;
+    width: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 #wrap{
@@ -15,7 +18,38 @@ hr {
 .body {
     margin: 0px;
     padding: 0px;
-  }
+}
+
+.bar{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.bar a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bar a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.right{
+    float: right;
+}
+
+.text{
+    margin-top: 50px;
+    text-align: center;
+}
 
 .body
   .main-container {
@@ -292,6 +326,16 @@ body {
     grid-gap: 10px;
     /*transmation */
     transition:  .3s ease
+}
+
+.everyday{
+    height: 50px;
+    font-size: large;
+}
+
+.guided{
+    height: 50px;
+    font-size: large;
 }
 
 

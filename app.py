@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<p>Project is Running<p>"
+    return render_template('/index.html')
 
 @app.route('/pomodoro')
 def main():
@@ -20,11 +20,19 @@ def theme():
 
 @app.route('/entryType')
 def entry():
+    return render_template('/entryType.html')
+
+@app.route('/everyday')
+def everyday():
     conn = sqlite3.connect('./static/data/journal.db')
     curs = conn.cursor()
     journal = []
     message = {'entries': row[1], 'rowid': row[0]}
-    return render_template('/entryType.html')
+    return render_template('/everyday.html')
+
+@app.route('/guided')
+def guided():
+    return render_template('/guided.html')
     
 if __name__ == '__main__':
     app.run(debug = True, host = '0.0.0.0')
