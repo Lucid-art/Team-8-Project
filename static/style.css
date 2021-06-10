@@ -14,11 +14,11 @@ b {
     color: var(--text-color);    
 
 
-#main{
+/* #main{
     display: inline;
     text-align: center;
 }
-
+*/
 hr {
     color: var(--text-color);
     color: blue;
@@ -406,8 +406,7 @@ body.stealth-theme {
     /*transmation */
     transition:  .3s ease
 }
-<<<<<<< HEAD
-=======
+
 
 .everyday{
     height: 50px;
