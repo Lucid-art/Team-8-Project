@@ -1,3 +1,7 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #main{
     display: inline;
     text-align: center;
@@ -6,18 +10,12 @@
 hr {
     color: blue;
     width: 100%;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 #wrap{
     text-align: center;
-}
-
-
-.body {
-    margin: 0px;
-    padding: 0px;
 }
 
 .bar{
@@ -330,12 +328,47 @@ body {
 
 .everyday{
     height: 50px;
+    width: 100%;
     font-size: large;
+    background-color: lightslategray;
 }
 
 .guided{
     height: 50px;
+    width: 100%;
     font-size: large;
+    background-color: lightslategray;
+}
+
+.third{
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    background-color: lightslategray;
+}
+
+.fourth{
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    background-color: lightslategray;
+}
+
+.back{
+    width: 40px;
+    height: 40px;
+}
+
+.book{
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.home{
+    margin-left: 8px;
+    height: 40px;
+    width: 40px;
 }
 
 
