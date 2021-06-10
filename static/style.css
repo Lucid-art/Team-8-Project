@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     --text-color: #000000;
     --bkg-color: #ffffff; 
@@ -10,6 +11,10 @@ b {
 
 #bold {
     color: var(--text-color);    
+=======
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+>>>>>>> f49a8bda76b81214ab7098f83e8dded261b1cad5
 }
 
 #main{
@@ -18,19 +23,30 @@ b {
 }
 
 hr {
+<<<<<<< HEAD
     color: var(--text-color);
+=======
+    color: blue;
+    width: 100%;
+    margin-left: 90px;
+    margin-right: 90px;
+>>>>>>> f49a8bda76b81214ab7098f83e8dded261b1cad5
 }
 
 #wrap{
     text-align: center;
 }
 
+<<<<<<< HEAD
 
 .body {
     margin: 0px;
     padding: 0px;
   }
   .bar{
+=======
+.bar{
+>>>>>>> f49a8bda76b81214ab7098f83e8dded261b1cad5
     overflow: hidden;
     background-color: black;
     color: white;
@@ -391,6 +407,62 @@ body.stealth-theme {
     box-sizing:border-box;
 }
 
+<<<<<<< HEAD
 
+=======
+.theme-buttons {
+    /*all the grid stuff*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /*transmation */
+    transition:  .3s ease
+}
+
+.everyday{
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    background-color: lightslategray;
+}
+
+.guided{
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    background-color: lightslategray;
+}
+
+.third{
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    background-color: lightslategray;
+}
+
+.fourth{
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    background-color: lightslategray;
+}
+
+.back{
+    width: 40px;
+    height: 40px;
+}
+
+.book{
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.home{
+    margin-left: 8px;
+    height: 40px;
+    width: 40px;
+}
+>>>>>>> f49a8bda76b81214ab7098f83e8dded261b1cad5
 
 
