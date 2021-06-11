@@ -24,7 +24,7 @@ def entry():
 
 @app.route('/everyday')
 def everyday():
-    conn = sqlite3.connect('./static/data/journal.db')
+    conn = sqlite3.connect('./static/store/journal.db')
     curs = conn.cursor()
     journal = []
     message = {'entries': row[1], 'rowid': row[0]}
