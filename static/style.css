@@ -12,21 +12,27 @@ b {
 
 #bold {
     color: var(--text-color);    
-<<<<<<< HEAD
+
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-=======
->>>>>>> 15469f96aad7065295c77b34990da066d5e25720
 
 
 /* #main{
     display: inline;
+
     text-align: center;
+    margin-left: 100px;
+}
+
+.word{
+   float: left;
+
 }
 */
-hr {
+
+hr{
     color: var(--text-color);
     color: blue;
     width: 100%;
@@ -38,24 +44,12 @@ hr {
     text-align: center;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 15469f96aad7065295c77b34990da066d5e25720
-
 .body {
     margin: 0px;
     padding: 0px;
   }
-<<<<<<< HEAD
 
-
-.bar{
-
-=======
-  
   .bar{
->>>>>>> 15469f96aad7065295c77b34990da066d5e25720
     overflow: hidden;
     background-color: black;
     color: white;
@@ -411,12 +405,9 @@ body.stealth-theme {
     box-sizing:border-box;
 }
 
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> 15469f96aad7065295c77b34990da066d5e25720
 .theme-buttons {
     /*all the grid stuff*/
     display: grid;
@@ -461,19 +452,40 @@ body.stealth-theme {
 }
 
 .book{
-    margin-left: 30px;
-    height: 30px;
-    width: 30px;
+    float: right;
+    appearance: button;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
 .home{
-    margin-left: 8px;
-    height: 40px;
-    width: 40px;
+    float: right;
+    appearance: button;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
 }
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> 15469f96aad7065295c77b34990da066d5e25720
