@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<p>Project is Running<p>"
+    return render_template('/index.html')
 
 @app.route('/pomodoro')
 def main():

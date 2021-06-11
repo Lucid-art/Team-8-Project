@@ -4,6 +4,7 @@ const errorMessage = document.querySelector('.error')
 const remTime = document.querySelector('.remTime');
 const notice = document.querySelector('.noticeBoard')
 
+
 const completed = document.querySelector('.completed-list')
 
 let workDuration = descForm.workTime.value;
@@ -185,3 +186,7 @@ let clearAll = () =>{
 let sessionTime = () =>{
     return `Session was started at ${currentTime} and ended at ${EndTime}`
 }
+
+
+
+
