@@ -72,7 +72,12 @@ hr {
     margin-top: 50px;
     text-align: center;
 }
- 
+
+
+  
+
+
+  
 .body
   .main-container {
     display: grid;
@@ -454,6 +459,6 @@ body.stealth-theme {
     height: 40px;
     width: 40px;
 }
-
+>>>>>>> f49a8bda76b81214ab7098f83e8dded261b1cad5
 
 

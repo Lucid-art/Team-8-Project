@@ -22,27 +22,30 @@ body{
 }
 
 hr {
+
     color: var(--text-color);
+
     color: blue;
     width: 100%;
     margin-left: 90px;
     margin-right: 90px;
+
 }
 
 #wrap{
     text-align: center;
 }
 
-
+<<<<<<< HEAD
 
 .body {
     margin: 0px;
     padding: 0px;
   }
-
-
+  .bar{
+=======
 .bar{
-
+>>>>>>> f49a8bda76b81214ab7098f83e8dded261b1cad5
     overflow: hidden;
     background-color: black;
     color: white;
@@ -72,7 +75,12 @@ hr {
     margin-top: 50px;
     text-align: center;
 }
- 
+
+
+  
+
+
+  
 .body
   .main-container {
     display: grid;
@@ -398,9 +406,9 @@ body.stealth-theme {
     box-sizing:border-box;
 }
 
+<<<<<<< HEAD
 
-
-
+=======
 .theme-buttons {
     /*all the grid stuff*/
     display: grid;
@@ -454,6 +462,6 @@ body.stealth-theme {
     height: 40px;
     width: 40px;
 }
-
+>>>>>>> f49a8bda76b81214ab7098f83e8dded261b1cad5
 
 
