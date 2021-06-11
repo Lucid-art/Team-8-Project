@@ -2,9 +2,14 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#main{
-    display: inline;
+.main{
     text-align: center;
+    margin-left: 100px;
+}
+
+.word{
+   float: left;
+
 }
 
 hr {
@@ -360,15 +365,39 @@ body {
 }
 
 .book{
-    margin-left: 30px;
-    height: 30px;
-    width: 30px;
+    float: right;
+    appearance: button;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
 .home{
-    margin-left: 8px;
-    height: 40px;
-    width: 40px;
+    float: right;
+    appearance: button;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
 }
 
 
