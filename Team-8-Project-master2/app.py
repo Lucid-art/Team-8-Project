@@ -21,6 +21,10 @@ def theme():
 @app.route('/entryType')
 def entry():
     return render_template('/entryType.html')
+
+@app.route('/journal')
+def journal():
+    return render_template('/journal.html')
     
 if __name__ == '__main__':
     app.run(debug = True, host = '0.0.0.0')
