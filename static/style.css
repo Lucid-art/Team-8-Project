@@ -2,6 +2,7 @@
 body {
     --text-color: #000000;
     --bkg-color: #ffffff; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1,
@@ -11,16 +12,20 @@ b {
 
 #bold {
     color: var(--text-color);    
+<<<<<<< HEAD
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+=======
+>>>>>>> 15469f96aad7065295c77b34990da066d5e25720
 
-#main{
+
+/* #main{
     display: inline;
     text-align: center;
 }
-
+*/
 hr {
     color: var(--text-color);
     color: blue;
@@ -33,16 +38,24 @@ hr {
     text-align: center;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 15469f96aad7065295c77b34990da066d5e25720
 
 .body {
     margin: 0px;
     padding: 0px;
   }
+<<<<<<< HEAD
 
 
 .bar{
 
+=======
+  
+  .bar{
+>>>>>>> 15469f96aad7065295c77b34990da066d5e25720
     overflow: hidden;
     background-color: black;
     color: white;
@@ -398,9 +411,12 @@ body.stealth-theme {
     box-sizing:border-box;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 15469f96aad7065295c77b34990da066d5e25720
 .theme-buttons {
     /*all the grid stuff*/
     display: grid;
@@ -409,6 +425,7 @@ body.stealth-theme {
     /*transmation */
     transition:  .3s ease
 }
+
 
 .everyday{
     height: 50px;
@@ -454,6 +471,9 @@ body.stealth-theme {
     height: 40px;
     width: 40px;
 }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 15469f96aad7065295c77b34990da066d5e25720
