@@ -32,6 +32,9 @@ function addEntryToDom(event) {
         const year = d.getFullYear();
 
 
+
+
+
         const heading = document.createElement(`h2`);
         heading.className = `heading-results`;
         heading.textContent = `Journal Entries`;

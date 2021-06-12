@@ -25,6 +25,33 @@ def entry():
 @app.route('/journal')
 def journal():
     return render_template('/journal.html')
+
+@app.route('/store', methods=["POST"])
+def store():
+    title = request.form['entry-title']
+    daily = request.form['daily-entry']
+    conn = sqlite3.connect('./static/data/journal.db')
+    curs = conn.cursor()
+    curs.execute("INSERT INTO entries(name, entries) VALUES((?), (?))",(title,daily))
+    conn.commit()
+    conn.close()
+    return render_template('/everyday.html')
+
+
+
+
+
+
+@app.route('/everyday')
+def day():
+    #connecting to database
+    conn = sqlite3.connect('./static/data/journal.db')
+    curs = conn.cursor()
+    curs.execute("SELECT * FROM  entries")
+    conn.commit()
+    #close database connection
+    conn.close()
+    return render_template('/everyday.html')
     
 if __name__ == '__main__':
     app.run(debug = True, host = '0.0.0.0')
