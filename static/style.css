@@ -19,7 +19,7 @@ body{
 }
 
 
-/* #main{
+#main{
     display: inline;
 
     text-align: center;
@@ -30,7 +30,7 @@ body{
    float: left;
 
 }
-*/
+
 
 hr{
     color: var(--text-color);
@@ -48,6 +48,7 @@ hr{
     margin: 0px;
     padding: 0px;
   }
+
 
   .bar{
     overflow: hidden;
