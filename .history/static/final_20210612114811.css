@@ -204,12 +204,12 @@ input[class^='btn-']:hover {
 .entry-text-box:focus {
   outline-color:  var(--text-color);
   font-family: 'Space Mono', monospace;
-  color:  var(--text-color);
+  color: lightcoral;
   font-size: 1rem;
 }
 
 .entry-text-box::placeholder {
-  color:  var(--text-color);
+  color: lightcoral;
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }

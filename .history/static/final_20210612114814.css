@@ -209,7 +209,7 @@ input[class^='btn-']:hover {
 }
 
 .entry-text-box::placeholder {
-  color:  var(--text-color);
+  color: lightcoral;
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }

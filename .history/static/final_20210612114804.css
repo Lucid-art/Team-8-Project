@@ -153,7 +153,7 @@ input[class^='btn-']:hover {
 }
 
 .entry-text-title::-ms-value {
-  color:  var(--text-color);
+  color: ;
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }
@@ -202,14 +202,14 @@ input[class^='btn-']:hover {
 }
 
 .entry-text-box:focus {
-  outline-color:  var(--text-color);
+  outline-color: lightcoral;
   font-family: 'Space Mono', monospace;
-  color:  var(--text-color);
+  color: lightcoral;
   font-size: 1rem;
 }
 
 .entry-text-box::placeholder {
-  color:  var(--text-color);
+  color: lightcoral;
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }

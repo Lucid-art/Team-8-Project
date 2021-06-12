@@ -12,8 +12,13 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  --text-color: lightcoral;
-  --bkg-color: lightgoldenrodyellow; 
+  --text-color: body {
+    --text-color: #000000;
+    --bkg-color: #ffffff; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+;
+  --bkg-color: ; 
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -21,7 +26,7 @@ body {
   font-family: 'Space Mono', monospace;
   line-height: 1.6;
   background:white;
-  color: var(--text-color);
+  color: lightcoral;
   margin: 0 auto;
   padding: 0;
   max-width: 900px;
@@ -100,8 +105,8 @@ header {
 }
 
 .btn-main {
-  color:  var(--bkg-color);
-  background-color: var(--text-color);
+  color: lightgoldenrodyellow;
+  background-color: lightcoral;
 }
 
 .btn-light {
@@ -117,8 +122,8 @@ header {
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color:  var(--bkg-color);
-  color:  var(--text-color);
+  background-color: lightgoldenrodyellow;
+  color: lightcoral;
   font-weight: 700;
   transform: scale(1.08);
 }
@@ -135,25 +140,25 @@ input[class^='btn-']:hover {
   padding: 1em;
   border-radius: 2px;
   border: unset;
-  background-color:  var(--bkg-color);
+  background-color: lightgoldenrodyellow;
   font-family: 'Space Mono', monospace;
 }
 
 .entry-text-title:focus {
-  outline-color:  var(--text-color);
+  outline-color: lightcoral;
   font-family: 'Space Mono', monospace;
-  color:  var(--text-color);
+  color: lightcoral;
   font-size: 1rem;
 }
 
 .entry-text-title::placeholder {
-  color:  var(--text-color);
+  color: lightcoral;
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }
 
 .entry-text-title::-ms-value {
-  color:  var(--text-color);
+  color: lightcoral;
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }
@@ -184,7 +189,7 @@ input[class^='btn-']:hover {
   padding: 1em;
   border-radius: 2px;
   border: unset;
-  background-color:  var(--bkg-color);
+  background-color: lightgoldenrodyellow;
   font-family: 'Space Mono', monospace;
 }
 
@@ -196,20 +201,20 @@ input[class^='btn-']:hover {
     padding: 1em;
     border-radius: 2px;
     border: unset;
-    background-color:  var(--bkg-color);
+    background-color: lightgoldenrodyellow;
     font-family: 'Space Mono', monospace;
   }
 }
 
 .entry-text-box:focus {
-  outline-color:  var(--text-color);
+  outline-color: lightcoral;
   font-family: 'Space Mono', monospace;
-  color:  var(--text-color);
+  color: lightcoral;
   font-size: 1rem;
 }
 
 .entry-text-box::placeholder {
-  color:  var(--text-color);
+  color: lightcoral;
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }
@@ -244,14 +249,14 @@ input[class^='btn-']:hover {
 }
 
 .single-entry-date {
-  background-color:  var(--bkg-color);
+  background-color: lightgoldenrodyellow;
   width: 100%;
 }
 
 .heading-results {
   text-align: center;
   text-decoration: underline;
-  text-decoration-color:  var(--bkg-color);
+  text-decoration-color: lightgoldenrodyellow;
 }
 /* theme code - ben  */
 body.stealth-theme {
