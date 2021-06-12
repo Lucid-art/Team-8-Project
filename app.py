@@ -22,6 +22,18 @@ def theme():
 def entry():
     return render_template('/entryType.html')
 
+@app.route('/fitness')
+def fitness():
+    return render_template('/fitness.html')
+
+@app.route('/dream')
+def dream():
+    return render_template('/dream.html')
+
+
+
+
+
 @app.route('/journal')
 def journal():
     return render_template('/journal.html')

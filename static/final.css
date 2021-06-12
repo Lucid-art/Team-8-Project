@@ -11,15 +11,21 @@ html {
   padding: 0;
   scroll-behavior: smooth;
 }
+body {
+  --text-color: lightcoral;
+  --bkg-color: lightgoldenrodyellow; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 body {
   font-family: 'Space Mono', monospace;
   line-height: 1.6;
   background:white;
-  color: lightcoral;
+  color: var(--text-color);
   margin: 0 auto;
   padding: 0;
   max-width: 900px;
+  
 }
 
 /* Global Typography */
@@ -94,8 +100,8 @@ header {
 }
 
 .btn-main {
-  color: lightgoldenrodyellow;
-  background-color: lightcoral;
+  color:  var(--bkg-color);
+  background-color: var(--text-color);
 }
 
 .btn-light {
@@ -111,8 +117,8 @@ header {
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: lightgoldenrodyellow;
-  color: lightcoral;
+  background-color:  var(--bkg-color);
+  color:  var(--text-color);
   font-weight: 700;
   transform: scale(1.08);
 }
@@ -129,25 +135,25 @@ input[class^='btn-']:hover {
   padding: 1em;
   border-radius: 2px;
   border: unset;
-  background-color: lightgoldenrodyellow;
+  background-color:  var(--bkg-color);
   font-family: 'Space Mono', monospace;
 }
 
 .entry-text-title:focus {
-  outline-color: lightcoral;
+  outline-color:  var(--text-color);
   font-family: 'Space Mono', monospace;
-  color: lightcoral;
+  color:  var(--text-color);
   font-size: 1rem;
 }
 
 .entry-text-title::placeholder {
-  color: lightcoral;
+  color:  var(--text-color);
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }
 
 .entry-text-title::-ms-value {
-  color: lightcoral;
+  color:  var(--text-color);
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }
@@ -178,7 +184,7 @@ input[class^='btn-']:hover {
   padding: 1em;
   border-radius: 2px;
   border: unset;
-  background-color: lightgoldenrodyellow;
+  background-color:  var(--bkg-color);
   font-family: 'Space Mono', monospace;
 }
 
@@ -190,20 +196,20 @@ input[class^='btn-']:hover {
     padding: 1em;
     border-radius: 2px;
     border: unset;
-    background-color: lightgoldenrodyellow;
+    background-color:  var(--bkg-color);
     font-family: 'Space Mono', monospace;
   }
 }
 
 .entry-text-box:focus {
-  outline-color: lightcoral;
+  outline-color:  var(--text-color);
   font-family: 'Space Mono', monospace;
-  color: lightcoral;
+  color:  var(--text-color);
   font-size: 1rem;
 }
 
 .entry-text-box::placeholder {
-  color: lightcoral;
+  color:  var(--text-color);
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
 }
@@ -238,12 +244,52 @@ input[class^='btn-']:hover {
 }
 
 .single-entry-date {
-  background-color: lightgoldenrodyellow;
+  background-color:  var(--bkg-color);
   width: 100%;
 }
 
 .heading-results {
   text-align: center;
   text-decoration: underline;
-  text-decoration-color: lightgoldenrodyellow;
+  text-decoration-color:  var(--bkg-color);
+}
+/* theme code - ben  */
+body.stealth-theme {
+  --text-color: #383e42;
+  --bkg-color: #010203;  
+}
+
+#stealth {
+  background-color: #010203; 
+  color:#383e42; 
+}
+
+body.bmo-theme {
+  --text-color: #124883;
+  --bkg-color: #63bda4;
+}
+
+#bmo {
+  background-color: #63bda4; 
+  color:#124883;  
+}
+
+body.striker-theme {
+  --text-color: #d6dbd9;
+  --bkg-color: #124883;
+}
+
+#striker {
+  background-color: #124883; 
+  color:#d6dbd9; 
+}
+
+body.red-samurai-theme {
+  --text-color: #c79e6e;
+  --bkg-color: #84202c; 
+}
+
+#red-samurai {
+  background-color: #84202c;
+  color: #c79e6e;
 }
