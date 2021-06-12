@@ -12,7 +12,7 @@ const getEntryTitle = document.getElementsByClassName(`entry-text-title`);
 const getEntryText = document.getElementsByClassName(`entry-text-box`);
 
 function addEntryToDom(event) {
-        event.preventDefault();
+        //event.preventDefault();
         const d = new Date();
         const month = new Array();
         month[0] = 'January';

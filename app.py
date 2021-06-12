@@ -38,10 +38,6 @@ def store():
     return render_template('/everyday.html')
 
 
-
-
-
-
 @app.route('/everyday')
 def day():
     #connecting to database
